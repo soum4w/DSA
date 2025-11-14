@@ -1,0 +1,17 @@
+What is a Heap?
+
+A Heap is a tree-based data structure where:
+It is always a complete binary tree
+Every level is completely filled except the last
+Nodes in the last level are filled from left to right.
+
+
+There are two types of heaps:
+
+1. Max Heap
+The value of each parent node is ≥ the value of its children
+So, the largest element is always at the root
+
+2. Min Heap
+The value of each parent node is ≤ the value of its children
+So, the smallest element is always at the root
