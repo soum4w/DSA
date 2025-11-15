@@ -15,3 +15,7 @@ So, the largest element is always at the root
 2. Min Heap
 The value of each parent node is ≤ the value of its children
 So, the smallest element is always at the root
+
+
+If a node is present at the i th position, its left child is at the 2*i position and its right child is at the 2*i+1 position. (index starts with 1)
+and parent node is at the floor(i/2) position.
