@@ -19,3 +19,9 @@ So, the smallest element is always at the root
 
 If a node is present at the i th position, its left child is at the 2*i position and its right child is at the 2*i+1 position. (index starts with 1)
 and parent node is at the floor(i/2) position.
+
+
+Time complexity:
+Insert → O(log n)
+Delete (root) → O(log n)
+Get max/min → O(1)
