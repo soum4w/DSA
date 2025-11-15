@@ -18,12 +18,15 @@ void heapify(vector<int>& arr, int n, int i){
 
 void heapSort(vector<int>& arr){
     int n = arr.size();
+
+    //build max heap from the array
     for(int i= n/2-1; i>=0; i--){
         heapify(arr, n, i);
     }
 
+    //sort the array
     for(int i=n-1; i>0; i--){
-        swap(arr[i], arr[0]);
+        swap(arr[i], arr[0]); //swapping the largest element with the last element, after heapify (max heap) the first element will be the largest
         heapify(arr, i, 0); //passing 0 because after swapping (with root) we need to heapify again to maintain the heap
     }
 }
