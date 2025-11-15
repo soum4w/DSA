@@ -24,7 +24,7 @@ void heapSort(vector<int>& arr){
 
     for(int i=n-1; i>0; i--){
         swap(arr[i], arr[0]);
-        heapify(arr, i, 0); //passing 0 because after swapping we need to heapify again to maintain the heap
+        heapify(arr, i, 0); //passing 0 because after swapping (with root) we need to heapify again to maintain the heap
     }
 }
 
