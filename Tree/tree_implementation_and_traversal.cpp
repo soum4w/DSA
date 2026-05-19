@@ -28,8 +28,8 @@ Node* buildTree(const vector<int>& preOrder){
 
 /* we have used const and & because without & >>
 Each recursive call makes a new copy of the vector.
-For your recursion (which can call itself many times), that’s massive overhead in both time and memory.
-So your recursion would run slow and waste memory.*/
+For the recursion (which can call itself many times), that’s massive overhead in both time and memory.
+So the recursion would run slow and waste memory.*/
 
     index++;
     if(preOrder[index]== -1) return NULL;
