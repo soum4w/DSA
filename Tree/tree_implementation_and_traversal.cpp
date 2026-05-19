@@ -1,15 +1,14 @@
-//       binary tree implementation
+//  Binary Tree Implementation
 
 /*
-           - info -
+           - Info -
 pre order =  root , left , right
 in order = left , root , right
 post order = left , right , root
 
 */
 
-#include <iostream>
-#include<vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 class Node{
@@ -23,24 +22,21 @@ class Node{
         left = right = NULL;
     }
 };
-static int index = -1;
+static int idx = -1;
 Node* buildTree(const vector<int>& preOrder){
 
-/* we have used const and & because without & >>
-Each recursive call makes a new copy of the vector.
-For the recursion (which can call itself many times), that’s massive overhead in both time and memory.
-So the recursion would run slow and waste memory.*/
+/* we have used const and & because we don't want to change the preOrde list and without this it will create copy everytime the recursion runs*/
 
-    index++;
-    if(preOrder[index]== -1) return NULL;
+    idx++;
+    if(preOrder[idx]== -1) return NULL;
 
-    Node* root = new Node(preOrder[index]);
+    Node* root = new Node(preOrder[idx]);
     root->left = buildTree(preOrder);
     root->right = buildTree(preOrder);
     return root;
 }
 
-
+// traversal
 void preOrder(Node* root){
     if(root==NULL) return;
 
@@ -68,6 +64,12 @@ void postOrder(Node* root){
 int main(){
 
     vector<int> preOrderList = {1,2,-1,-1,3,4,-1,-1,5,-1,-1};
+/*      1
+       / \
+      2   3
+         / \
+        4   5           
+*/
     Node* root = buildTree(preOrderList);
 
     preOrder(root); cout<<endl;
