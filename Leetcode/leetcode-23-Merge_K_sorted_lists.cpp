@@ -1,3 +1,5 @@
+//we can solve it using priority queue also with the same TC but this approach is slightly better
+
 #include <bits/stdc++.h>
 using namespace std;
 struct ListNode{

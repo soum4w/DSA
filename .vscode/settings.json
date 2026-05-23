@@ -1,0 +1,50 @@
+{
+    "editor.fontFamily": "'Hack', monospace",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 18,
+    "editor.lineHeight": 28,
+
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth",
+    "editor.smoothScrolling": true,
+
+    "editor.minimap.enabled": false,
+
+    "editor.wordWrap": "on",
+
+    "editor.formatOnSave": true,
+
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+
+    "editor.renderWhitespace": "selection",
+
+    "editor.stickyScroll.enabled": true,
+
+    "editor.inlineSuggest.enabled": true,
+
+    "editor.mouseWheelZoom": true,
+
+    "editor.scrollBeyondLastLine": false,
+
+    "workbench.iconTheme": "material-icon-theme",
+
+    "window.commandCenter": true,
+
+    "terminal.integrated.fontFamily": "'Hack'",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.smoothScrolling": true,
+
+    "files.autoSave": "afterDelay",
+
+    "explorer.confirmDelete": false,
+
+    "breadcrumbs.enabled": true,
+
+    "git.autofetch": true,
+
+    "security.workspace.trust.untrustedFiles": "open"
+}
