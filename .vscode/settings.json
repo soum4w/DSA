@@ -28,7 +28,7 @@
 
     "editor.mouseWheelZoom": true,
 
-    "editor.scrollBeyondLastLine": false,
+    "editor.scrollBeyondLastLine": true,
 
     "workbench.iconTheme": "material-icon-theme",
 
