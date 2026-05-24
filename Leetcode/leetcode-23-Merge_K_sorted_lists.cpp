@@ -1,3 +1,4 @@
+//Divide and conquer
 //we can solve it using priority queue also with the same TC but this approach is slightly better
 
 #include <bits/stdc++.h>
@@ -13,7 +14,7 @@ struct ListNode{
 class Solution
 {
 public:
-    ListNode *merge2Lists(ListNode *list1, ListNode *list2)
+    ListNode* merge2Lists(ListNode* list1, ListNode* list2)
     {
         if (list1 == nullptr || list2 == nullptr)
             return list2 == nullptr ? list1 : list2;
@@ -38,8 +39,8 @@ public:
             return lists[start];
 
         int mid = start + (end - start) / 2;
-        ListNode *list1 = partitionAndMerge(start, mid, lists);
-        ListNode *list2 = partitionAndMerge(mid + 1, end, lists);
+        ListNode* list1 = partitionAndMerge(start, mid, lists);
+        ListNode* list2 = partitionAndMerge(mid + 1, end, lists);
         return merge2Lists(list1, list2);
     }
 
@@ -51,3 +52,4 @@ public:
         return partitionAndMerge(0, size - 1, lists);
     }
 };
+
