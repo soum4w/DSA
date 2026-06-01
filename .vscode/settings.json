@@ -46,5 +46,9 @@
 
     "git.autofetch": true,
 
+
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 2,
+
     "security.workspace.trust.untrustedFiles": "open"
 }
