@@ -1,3 +1,6 @@
+//top - down = recursion + memoization
+// buttom - up = tabulation
+
 import java.util.Arrays;
 
 public class KnapsackMemoization {
