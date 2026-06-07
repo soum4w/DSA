@@ -1,4 +1,4 @@
-public class SubsetSumExists {
+public class SubsetSum {
 
     static boolean subsetSum(int[] arr, int target) {
         int n = arr.length;
