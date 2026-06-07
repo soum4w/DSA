@@ -16,8 +16,8 @@ public class MinimumSubsetSumDifference {
 
         int minDiff = Integer.MAX_VALUE;
         for(int s1=0; s1<=range/2; s1++){
-            if(dp[n][s1]) minDiff = Math.min(minDiff, range-(2*s1)); //s2-s1 = (range-s1)-s1 //s2 = range - s1
-        }
+            if(dp[n][s1]) minDiff = Math.min(minDiff, range-(2*s1)); //s2-s1 = (range-s1)-s1 //s2 = range - s1  
+        }                                                      //consider the last row as the possible subset sum values
         return minDiff;
     }
     public static void main(String[] args) {
