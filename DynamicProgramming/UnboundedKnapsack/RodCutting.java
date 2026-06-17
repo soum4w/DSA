@@ -9,8 +9,6 @@ public class RodCutting {
         }
         int[][] dp = new int[N+1][N+1];
 
-
-
         for(int i=1; i<=N; i++){
             for(int len=1; len<=N; len++){
                 dp[i][len] = dp[i-1][len];
