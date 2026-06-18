@@ -34,6 +34,7 @@ public class PrintLCS {
     public static void main(String[] args) {
         String a = "abcdgh";
         String b = "abedfhr";
+       
         System.out.println(printLCS(a,b));
     }
 }
