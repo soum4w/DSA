@@ -1,7 +1,7 @@
 {
     "editor.fontFamily": "'Hack', monospace",
     "editor.fontLigatures": false,
-    "editor.fontSize": 18,
+    "editor.fontSize": 17,
     "editor.lineHeight": 28,
 
     "editor.cursorSmoothCaretAnimation": "on",
