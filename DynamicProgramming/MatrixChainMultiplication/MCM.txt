@@ -3,3 +3,4 @@ here because 3 (2nd of 1st matrix) = 3 (1st of 2nd matrix)
 
 #Cost = 2 * 3 * 6 = 36
 
+Refer to Aditya Verma MCM YT Video
