@@ -1,0 +1,5 @@
+Suppose there are two Matrices of 2*3 and 3*6 then after multiplication the size of the new matrix will be 2*6 and multiplication is possible
+here because 3 (2nd of 1st matrix) = 3 (1st of 2nd matrix)
+
+#Cost = 2 * 3 * 6 = 36
+
