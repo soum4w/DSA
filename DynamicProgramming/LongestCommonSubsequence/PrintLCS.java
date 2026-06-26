@@ -1,7 +1,6 @@
 package DynamicProgramming.LongestCommonSubsequence;
 
 public class PrintLCS {
-
     static String printLCS(String a, String b){
         //build DP
         int lenA = a.length();
@@ -13,7 +12,6 @@ public class PrintLCS {
                 else dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
             }
         }
-
         //Backtrack
         int i = lenA;
         int j = lenB;
@@ -31,10 +29,10 @@ public class PrintLCS {
         }
         return sb.reverse().toString();
     }
+
     public static void main(String[] args) {
         String a = "abcdgh";
         String b = "abedfhr";
-       
         System.out.println(printLCS(a,b));
     }
 }

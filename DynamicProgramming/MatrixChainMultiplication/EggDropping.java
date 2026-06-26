@@ -9,7 +9,6 @@ public class EggDropping {
         if(floors==0 || floors == 1) return floors;
         if(eggs == 1) return floors;
         if (dp[eggs][floors]!=-1) return dp[eggs][floors];
-        
         int minAttempts = Integer.MAX_VALUE;
         for(int k=1; k<=floors; k++){
             int breaks = (dp[eggs-1][k-1]!=-1)? dp[eggs-1][k-1] : solve(eggs-1, k-1);

@@ -9,7 +9,6 @@ To find the length of the shortest common supersequence, we need to subtract the
 */
 
 public class LengthOfShortestCommonSuperSequence { 
-    
     static int lengthOfShortestCommonSuperSequence(String a, String b){
         int lenA = a.length();
         int lenB = b.length();
@@ -22,6 +21,7 @@ public class LengthOfShortestCommonSuperSequence {
         }
         return lenA+lenB - dp[lenA][lenB];
     }
+    
     public static void main(String[] args) {
         // String a = "aggtab";
         // String b = "axtxayb";

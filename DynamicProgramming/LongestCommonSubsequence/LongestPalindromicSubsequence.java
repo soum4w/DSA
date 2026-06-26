@@ -1,6 +1,5 @@
 package DynamicProgramming.LongestCommonSubsequence;
 public class LongestPalindromicSubsequence {
-
     static int longestPalindromicSubsequence(String a){
         String b = new StringBuilder(a).reverse().toString();
         int len = a.length();
@@ -12,7 +11,6 @@ public class LongestPalindromicSubsequence {
             }
         }
         int lcsLength = dp[len][len];
-
         int i = len;
         int j = len;
         StringBuilder sb = new StringBuilder();
@@ -28,9 +26,9 @@ public class LongestPalindromicSubsequence {
             }
         }
         System.out.println("Longest Palindromic Subsequence: " + sb.reverse().toString());
-
         return lcsLength; // or sb.length()
     }
+    
     public static void main(String[] args) {
         String a= "agbcba";
         System.out.println(" Palindromic Subsequence Length: "+longestPalindromicSubsequence(a));

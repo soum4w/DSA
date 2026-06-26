@@ -7,7 +7,6 @@ LCS is ea and heap -> ea, we require 2 deletions and then ea -> pea, 1 insertion
 */
 
 public class MinNoOfInsertionAndDeletionToConvertStringAToStringB {
-
     static int[] minNoOfInsertionAndDeletionToConvertStringAToStringB(String a, String b){
         int lenA = a.length();
         int lenB = b.length();
@@ -19,12 +18,11 @@ public class MinNoOfInsertionAndDeletionToConvertStringAToStringB {
             }
         }
         int lcs = dp[lenA][lenB];
-
         int deletions = lenA - lcs;
         int insertions = lenB - lcs;
-
         return new int[]{insertions, deletions};
     }
+    
     public static void main(String[] args) {
         String a = "heap";
         String b = "pea";

@@ -1,7 +1,6 @@
 package DynamicProgramming.LongestCommonSubsequence;
 
 public class LongestRepeatingSubsequence {
-
     static int longestRepeatingSubsequence(String s){
         int len= s.length();
         int[][] dp = new int[len+1][len+1];

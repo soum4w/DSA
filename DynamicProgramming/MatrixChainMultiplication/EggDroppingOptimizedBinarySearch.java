@@ -62,6 +62,7 @@ import java.util.Arrays;
 
 public class EggDroppingOptimizedBinarySearch {
     static int[][] dp;
+
     static int solve(int eggs, int floors){
         if(floors==0 || floors==1) return floors;
         if(eggs == 1) return floors;
@@ -79,6 +80,7 @@ public class EggDroppingOptimizedBinarySearch {
         }
         return dp[eggs][floors] = minAttempts;
     }
+    
     public static void main(String[] args) {
         int eggs = 2; 
         int floors = 10;

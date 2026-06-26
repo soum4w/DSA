@@ -2,6 +2,7 @@ package DynamicProgramming.MatrixChainMultiplication;
 import java.util.Arrays;
 public class TrueBoolParenthesis {
     static int[][][] dp;
+
     static int solve(String s, int i, int j, boolean isTrue) {
         // invalid
         if (i > j)
@@ -50,7 +51,6 @@ public class TrueBoolParenthesis {
                 Arrays.fill(row, -1);
             }
         }
-
         System.out.println(solve(s, 0, s.length() - 1, true));
     }
 }

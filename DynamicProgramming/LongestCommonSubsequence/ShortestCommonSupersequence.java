@@ -1,7 +1,6 @@
 package DynamicProgramming.LongestCommonSubsequence;
 
 public class ShortestCommonSupersequence {
-
     static String scs(String a, String b){
         //LCS table
         int lenA = a.length(); 

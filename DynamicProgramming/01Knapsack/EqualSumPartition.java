@@ -1,5 +1,4 @@
 public class EqualSumPartition {
-
     static boolean subsetSumBool(int[] arr, int target){
         int n = arr.length;
         boolean[][] dp = new boolean[n+1][target+1];

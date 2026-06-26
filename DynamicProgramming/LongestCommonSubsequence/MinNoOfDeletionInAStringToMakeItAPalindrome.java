@@ -3,7 +3,6 @@ package DynamicProgramming.LongestCommonSubsequence;
 //minimum number of deletions in a string to make it a palindrome
 
 public class MinNoOfDeletionInAStringToMakeItAPalindrome {
-
     static int lcs(String a){
         String b = new StringBuilder(a).reverse().toString();
         int len = a.length();
@@ -17,6 +16,7 @@ public class MinNoOfDeletionInAStringToMakeItAPalindrome {
         int lenOfLCS = dp[len][len];
         return len-lenOfLCS;
     }
+    
     public static void main(String[] args) {
         String s = "agbcba";
         System.out.println(lcs(s));

@@ -1,7 +1,6 @@
 package DynamicProgramming.LongestCommonSubsequence;
 
 public class LongestCommonSubstringLength {
-
     static int longestCommonSubstringLength(String a, String b){
         int lenA = a.length();
         int lenB = b.length();
@@ -13,12 +12,12 @@ public class LongestCommonSubstringLength {
                     dp[i][j] = 1+dp[i-1][j-1];
                     maxLen = Math.max(maxLen, dp[i][j]);
                 } 
-
                 else dp[i][j] = 0;
             }
         }
         return maxLen;
     }
+    
     public static void main(String[] args) {
         String a = "abcdgh";
         String b = "abedfhr";
