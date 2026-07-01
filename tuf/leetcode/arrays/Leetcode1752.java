@@ -1,4 +1,4 @@
-package tuf.leetcode;
+package tuf.leetcode.arrays;
 
 class Solution {
     public boolean check(int[] nums) {
