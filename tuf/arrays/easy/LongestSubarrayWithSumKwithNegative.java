@@ -2,7 +2,7 @@ package tuf.arrays.easy;
 
 import java.util.HashMap;
 
-class Solution {
+public class LongestSubarrayWithSumKwithNegative {
     public int longestSubarray(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         int n = nums.length;
@@ -21,7 +21,7 @@ class Solution {
             }
             // Case 3: Only add currentSum to the map if it doesn't exist.
             // This ensures we keep the earliest index for the maximum length.
-            if(!map.containsKey(currSum)){
+            if(!map.containsKey(currSum)){ //map.putIfAbsent(currSum, i);
                 map.put(currSum, i);
             }
         }

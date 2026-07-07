@@ -2,7 +2,7 @@ package tuf.arrays.easy;
 
 import java.util.ArrayList;
 
-class Solution {
+public class UnionOfTwoArr {
     public int[] unionArray(int[] nums1, int[] nums2) {
         ArrayList<Integer> ans = new ArrayList<>();
         int i = 0, j = 0;
