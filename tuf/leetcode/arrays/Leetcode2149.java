@@ -3,7 +3,7 @@ package tuf.leetcode.arrays;
 // import java.util.ArrayList;
 // import java.util.List;
 
-class Solution {
+public class Leetcode2149 {
     public int[] rearrangeArray(int[] nums) {
         int n = nums.length;
         int[] ans = new int[n];

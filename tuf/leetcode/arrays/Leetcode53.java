@@ -1,6 +1,6 @@
 package tuf.leetcode.arrays;
 //Kadane's Algorithm
-class Solution {
+public class Leetcode53 {
     public int maxSubArray(int[] nums) {
         int currentSum = nums[0];
         int maxSum = nums[0];

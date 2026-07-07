@@ -1,6 +1,6 @@
 package tuf.leetcode.arrays;
 
-class Solution {
+public class Leetcode1752 {
     public boolean check(int[] nums) {
         int n = nums.length;
         int peak = 0;

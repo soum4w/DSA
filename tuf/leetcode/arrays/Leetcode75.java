@@ -2,7 +2,7 @@
 
 package tuf.leetcode.arrays;
 
-class Solution {
+public class Leetcode75 {
     static void swap(int[]arr, int a, int b){
         int temp = arr[b];
         arr[b] = arr[a];

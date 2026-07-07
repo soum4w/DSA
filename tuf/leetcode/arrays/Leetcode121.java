@@ -1,6 +1,6 @@
 package tuf.leetcode.arrays;
 
-class Solution {
+public class Leetcode121 {
     public int maxProfit(int[] prices) {
         int n = prices.length;
         int bestBuy = prices[0];
