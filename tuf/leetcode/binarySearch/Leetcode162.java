@@ -1,6 +1,6 @@
 package tuf.leetcode.binarySearch;
 
-class Solution {
+public class Leetcode162 {
     public int findPeakElement(int[] nums) {
         int low = 0, high = nums.length - 1;
         while(low<high){
@@ -10,8 +10,4 @@ class Solution {
         }
         return low;
     }
-}
-
-public class Leetcode162 {
-    
 }

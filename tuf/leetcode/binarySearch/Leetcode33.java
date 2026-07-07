@@ -1,6 +1,6 @@
 package tuf.leetcode.binarySearch;
 
-class Solution {
+public class Leetcode33 {
     public int search(int[] nums, int target) {
         int low = 0, high = nums.length - 1;
         while (low <= high) {

@@ -1,6 +1,6 @@
 package tuf.leetcode.binarySearch;
 
-class Solution {
+public class Leetcode875  {
     static int hoursRequired(int[] piles, int speed){
         int hours = 0;
         for(int pile: piles){
@@ -27,8 +27,4 @@ class Solution {
         }
         return low; //return ans
     }
-}
-
-public class Leetcode875 {
-    
 }

@@ -29,7 +29,7 @@ if value is odd then value^1 = value - 1
 6^1 = 7
 */
 
-class Solution{
+public class Leetcode540{
     public int singleNonDuplicate(int[] nums){
         int low = 0, high = nums.length-1;
         while (low<high) {
@@ -41,6 +41,4 @@ class Solution{
     }
 }
 
-public class Leetcode540 {
-    
-}
+

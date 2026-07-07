@@ -2,7 +2,7 @@ package tuf.leetcode.binarySearch;
 
 //the min element must be in the unsorted part, where nums[i] > nums[i+1]
 
-class Solution {
+public class Leetcode153 {
     public int findMin(int[] nums) {
         int low = 0, high = nums.length-1;
         while (low<high){

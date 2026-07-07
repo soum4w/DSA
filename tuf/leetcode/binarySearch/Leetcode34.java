@@ -1,6 +1,6 @@
 package tuf.leetcode.binarySearch;
 
-class Solution {
+public class Leetcode34 {
     //finding leftPosition
     static int leftPosition(int[] nums, int target){
         int low = 0, high = nums.length-1;

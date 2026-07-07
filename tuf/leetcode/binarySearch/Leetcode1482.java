@@ -1,6 +1,6 @@
 package tuf.leetcode.binarySearch;
 
-class Solution {
+public class Leetcode1482 {
     static boolean canMakeBouquets(int[] bloomDay, int days, int m, int k){
         int flowers = 0, bouquets = 0;
         for(int bloom : bloomDay){
@@ -41,7 +41,3 @@ class Solution {
     }
 }
 
-
-public class Leetcode1482 {
-    
-}

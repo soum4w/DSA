@@ -1,6 +1,6 @@
 package tuf.leetcode.binarySearch;
 
-class Solution {
+public class Leetcode35 {
     public int searchInsert(int[] nums, int target) {
         int n = nums.length;
         int low = 0, high = n-1;
