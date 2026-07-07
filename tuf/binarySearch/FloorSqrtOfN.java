@@ -1,6 +1,6 @@
 package tuf.binarySearch;
 
-class Solution {
+public class FloorSqrtOfN {
     public int mySqrt(int n) {
         if(n==0 || n==1) return n;
         int low = 1, high = n;
@@ -21,6 +21,3 @@ class Solution {
     }
 }
 
-public class FloorSqrtOfN {
-
-}

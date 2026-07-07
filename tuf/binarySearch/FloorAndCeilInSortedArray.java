@@ -1,6 +1,6 @@
 package tuf.binarySearch;
 
-class Solution {
+public class FloorAndCeilInSortedArray {
     public int[] getFloorAndCeil(int[] nums, int target) {
         int low = 0, high = nums.length - 1;
         int floorVal = -1, ceilVal = -1;

@@ -1,6 +1,6 @@
 package tuf.binarySearch;
 
-class Solution {
+public class NthRootOfM {
     static long power(long base, int exp, int limit){
         long result = 1;
         for(int i=0; i<exp; i++){
@@ -21,8 +21,4 @@ class Solution {
         }
         return -1;
     }
-}
-
-public class NthRootOfM {
-
 }
