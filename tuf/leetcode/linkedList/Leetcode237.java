@@ -1,4 +1,4 @@
-// package tuf.leetcode.linkedList;
+package tuf.leetcode.linkedList;
 
 // /**
 //  * Definition for singly-linked list.

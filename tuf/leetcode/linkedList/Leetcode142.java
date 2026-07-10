@@ -1,3 +1,5 @@
+package tuf.leetcode.linkedList;
+
 public class Leetcode142 {
     
 }
