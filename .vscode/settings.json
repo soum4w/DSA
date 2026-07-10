@@ -1,6 +1,6 @@
 {
     // Editor - Font & Appearance
-    "editor.fontFamily": "'Fira Code', monospace",
+    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
     "editor.fontSize": 17,
     "editor.fontLigatures": true,
     "editor.lineHeight": 28,
@@ -43,7 +43,7 @@
     "git.autofetch": true,
 
     // Terminal
-    "terminal.integrated.fontFamily": "'Fira Code'",
+    "terminal.integrated.fontFamily": "'JetBrains Mono'",
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.smoothScrolling": true,
 
