@@ -1,6 +1,6 @@
 package tuf.leetcode.linkedList;
 
-/**
+/*
  * Definition for singly-linked list.
  * public class ListNode {
  *     int val;
