@@ -1,4 +1,4 @@
-package tuf.arrays.medium;
+package tuf.arrays;
 
 //extended version of Leetcode 53 : Kadane's algorithm
 

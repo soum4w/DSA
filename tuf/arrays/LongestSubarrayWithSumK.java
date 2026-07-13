@@ -1,6 +1,6 @@
 //Longest subarray with given sum K (positives)
 
-package tuf.arrays.easy;
+package tuf.arrays;
 
 class Solution {
     public int longestSubarrayWithSumK(int[] nums, int k) {

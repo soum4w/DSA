@@ -1,4 +1,4 @@
-package tuf.arrays.easy;
+package tuf.arrays;
 
 import java.util.ArrayList;
 
