@@ -5,9 +5,6 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class Leetcode40 {
-}
-
-class Solution {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
         List<List<Integer>> ans = new ArrayList<>();
